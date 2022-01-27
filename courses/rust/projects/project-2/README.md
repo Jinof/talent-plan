@@ -198,7 +198,7 @@ The [failure guide][fg] describes [several] error handling patterns.
 [several]: https://boats.gitlab.io/failure/guidance.html
 
 Pick one of those strategies and, in your library, either define your own error
-type or import `failure`s `Error`. This is the error type you will use in all of
+type or import `failure`'s `Error`. This is the error type you will use in all of
 your `Result`s, converting error types from other crates to your own with the
 `?` operator.
 
